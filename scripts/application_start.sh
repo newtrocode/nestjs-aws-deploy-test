@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "...."
+
 #give permission for everything in the express-app directory
 sudo chmod -R 777 /home/ubuntu/app
 
