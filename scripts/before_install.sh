@@ -4,6 +4,7 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
 # . ~/.nvm/nvm.sh
+# command not found 뜸 ㅡㅡ?
 nvm install 16.13.0
 
 #create our working directory if it doesnt exist
