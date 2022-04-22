@@ -14,4 +14,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # loads nvm bash_completion (node is in path now)
 
 #install node modules & build & start production
-npm run deploy &
+npm ci
+npm run build
+
+# && npm run start:prod
+# npm run deploy &
+# pm2 start
+pm2 start ecosystem.config.js
