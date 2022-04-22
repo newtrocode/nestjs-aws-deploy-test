@@ -9,4 +9,4 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # pkill -f node
-sudo pm2 kill
+#sudo pm2 kill
